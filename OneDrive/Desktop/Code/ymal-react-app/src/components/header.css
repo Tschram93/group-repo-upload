@@ -1,8 +1,7 @@
 .app-header {
     background: rgb(155,77,202);
     background: linear-gradient(90deg, rgba(155,77,202,1) 0%, rgba(255,158,0,1) 100%); 
-    color:white
-    padding-top: 60px
-    padding-bottom: 60px
-
-}
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
