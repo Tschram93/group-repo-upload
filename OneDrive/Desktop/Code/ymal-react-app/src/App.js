@@ -1,11 +1,17 @@
+import { useState } from 'react'
 import Header from './components/header'
 import './App.css';
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState ('')
+
+
   return (
     <>
     <Header>
-      <>This should output in our Header Component</>
+      <SearchForm searchTerm={searchTerm}
+      setSearchTerm={setSearchTerm}
+      />
     </Header>
      </>
   );
